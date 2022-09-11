@@ -21,5 +21,5 @@ while True:
     print(capó.value(),  puerta_derecha.value(),  puerta_izquierda.value(), baúl.value())
     sleep_ms(50)
 
-    #*   SE ASIGNA LA SUMA DE LOS VALORES QUE TIENEN LAS PUERTAS A LOS LEDS
+    #*   SE ASIGNA LA SUMA DE LOS VALORES QUE TIENEN LAS PUERTAS AL LED
     led.value(encendido)
